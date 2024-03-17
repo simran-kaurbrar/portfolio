@@ -1,0 +1,343 @@
+
+body{
+    background-color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+
+    line-height: 1.5;
+    
+    
+}
+
+
+.wrapper {
+    max-width: 90%;
+    
+    background-color: beige;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:3%;
+    margin-bottom: 3%;
+    border:2px solid black;
+    box-shadow:5px 5px 5px;
+    font-size: 20px;
+    
+}
+
+nav ul{
+    float:right;
+    
+}
+nav li{
+    display: inline-block;
+    margin-left:50px;
+    margin-right:20px;
+    
+}
+nav a{
+    margin-top:-5px;
+    display: block;
+    padding:5px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(131, 5, 5);
+    font-size: 20px;
+
+
+}
+
+
+.headerclass {
+    margin: 5px;
+    padding-left: 80px;
+    padding-right: 0;
+}
+
+.headerclass h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    color: darkred;
+}
+
+
+
+.main {
+    clear: left;
+    margin-left:150px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h2 {
+    margin: 20px;
+    padding: 20px;
+    text-decoration: underline wavy rgb(212, 212, 156);
+}
+
+.contact {
+    padding: 5px;
+    border-right: 2px solid rgb(212, 212, 156);
+}
+.languages h2{
+    margin-top:-20px;
+}
+.languages h2,
+.contact h2,
+.interest h2{
+    margin: 10px;
+    padding: 20px;
+    color: darkred;
+    margin-left:40px;
+}
+
+
+
+
+
+
+.education h2,
+
+.skills h2
+ {
+    margin: 10px;
+    padding: 20px;
+    color: darkred;
+    margin-left:80px;
+}
+nav a:hover{
+    color:black;
+    text-decoration: underline;
+}
+nav a:link{
+    color:rgb(131, 5, 5);
+}
+nav a:visited{
+    color:rgb(131, 5, 5);
+    
+}
+
+.contact ul {
+    list-style: none;
+    
+}
+header h1{
+    float:left;
+    margin-top:0px;
+}
+
+.education ul li,
+.skills ul li{
+    margin: 5px 2rem 5px 2rem;
+    padding: 10px;
+    margin-left:100px;
+    margin-right: 100px;
+    
+
+}
+
+
+
+.interest ul li,
+.languages ul li {
+    margin: 5px 2rem 5px 2rem;
+    padding: 10px;
+    margin-left:50px;
+    margin-right: 100px;
+    
+}
+.contact ul li{
+    margin: 5px 2rem 5px 2rem;
+    padding: 10px;
+    margin-left:10px;
+    margin-right: 80px;
+}
+
+.contact a {
+    font-weight: bold;
+    color: rgb(151, 57, 26);
+    text-decoration: none;
+}
+
+
+.interest {
+    border-right: 2px solid rgb(212, 212, 156);
+}
+
+
+.languages {
+    padding: 5px;
+    border-right: 2px solid rgb(212, 212, 156);
+}
+
+
+footer p {
+    clear:both;
+    height:auto;
+    width:98.6%;
+    background-color: rgb(100, 21, 21);
+    border-top:2px solid black;
+    font-size: 1em;
+    font-style: italic;
+    padding: 10px;
+    color:rgb(246, 244, 232);
+    margin: 0;
+    
+}
+
+
+@media only screen and (max-width:1024px){
+    .headerclass {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .headerclass h1 {
+        font-size: 30px;
+        font-weight: bold;
+       
+        padding: 20px;
+        margin-bottom: 10px;
+        padding-right: 0px;
+        color: darkred;
+        
+    }
+    
+    nav ul{
+        float:none;
+        border-bottom: 1px solid maroon;
+        
+    }
+    nav li{
+        display: inline-block;
+        text-align: center;
+        margin-left:0;
+        margin-right:0;
+       
+        
+       
+        
+        
+    }
+    
+    nav a{
+        display: block;
+        padding-right:30px;
+        font-weight: bold;
+        text-decoration: none;
+        color:rgb(131, 5, 5);
+        font-size: 25px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        
+        
+    
+    }
+
+    .main{
+        margin: 0;
+       
+        
+       
+    }
+
+    .education ul li,
+.skills ul li{
+    
+    margin-left:50px;
+    margin-right: 100px;
+    
+
+}
+.education h2,
+
+.skills h2
+ {
+    margin-left:40px;
+}
+
+}
+
+
+
+@media only screen and (max-width:768px){
+
+    .main{
+        margin: auto;
+        display: block;
+        margin: 10px;
+        padding:10px;   
+    }
+    
+    
+    nav ul{
+        float:none;
+       
+        
+    }
+    nav li{
+        display:block;
+        
+        margin-left:-100px;
+        padding:0;
+        
+    }
+    nav a{
+       
+        display: block;
+        text-align: center;
+        padding:5px;
+        font-weight: bold;
+        text-decoration: none;
+        color:rgb(131, 5, 5);
+        font-size: 20px;
+        border-bottom: 1px solid maroon;
+        
+    }   
+    
+    .contact{
+        border-right: none;
+
+    }
+
+    .education ul li,
+.skills ul li{
+    
+    margin-left:50px;
+    margin-right: 100px;
+    
+
+}
+.interest {
+    border-right: none;
+}
+
+
+.languages {
+    padding: 5px;
+    border-right: none;
+}
+.education h2,
+
+.skills h2
+ {
+    margin-left:40px;
+}
+.headerclass h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    color: darkred;
+}
+
+}
